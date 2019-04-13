@@ -469,6 +469,11 @@
 				width: auto;
 			}
 		}
+
+		&.dash {
+			position: relative;
+			width: 100% !important;
+		}
 	}
 
 /* Button */

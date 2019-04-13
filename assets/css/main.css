@@ -945,6 +945,9 @@ article:last-child {
     .image.centered img {
       margin: 0 auto;
       width: auto; }
+  .image.dash {
+    position: relative;
+    width: 100% !important; }
 
 /* Button */
 input[type="button"],
@@ -1131,8 +1134,10 @@ ul.actions {
   box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 2em; }
-  .box.style1 h3 {
-    margin-bottom: 0.5em; }
+  .box.style1 {
+    padding: 3em 2em 3.5em 2em; }
+    .box.style1 h3 {
+      margin-bottom: 0.5em; }
   .box.style2 h3 {
     margin-bottom: 0.25em; }
   .box.style2 .image {
@@ -1423,6 +1428,10 @@ body > article {
       top: 20px;
       margin: -50px 0 50px -40px;
       width: auto; }
+    .box.style1 {
+      max-width: 32em;
+      margin-left: auto !important;
+      margin-right: auto !important; }
     .box.style2 {
       max-width: 32em;
       margin-left: auto !important;
