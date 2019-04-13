@@ -317,6 +317,8 @@
 		@include breakpoint('<=small') {
 			@include html-grid((15px, 15px), 'small');
 		}
+
+		margin: 1em 0
 	}
 
 /* Form */
