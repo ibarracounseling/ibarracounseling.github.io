@@ -26,6 +26,8 @@
 // Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
 
 // Colors:
+$top-header: #282828;
+$hover-top-header: #383838;
 $base-blue: #194658;
 $hover-blue: #2E5D6F;
 $link-blue: #507A8A;
@@ -810,7 +812,7 @@ $base-dark: #303030;
 /* Nav */
 
 	#nav {
-		background-color: $base-blue;
+		background-color: $top-header;
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -847,11 +849,11 @@ $base-dark: #303030;
 
 			&:hover {
 				color: #fff !important;
-				background: $hover-blue;
+				background: $hover-top-header;
 			}
 
 			&.active {
-				background: $hover-blue;
+				background: $hover-top-header;
 
 				&:before {
 					content: '';

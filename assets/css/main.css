@@ -1192,7 +1192,7 @@ ul.actions {
 
 /* Nav */
 #nav {
-  background-color: #194658;
+  background-color: #282828;
   text-align: center;
   position: fixed;
   left: 0;
@@ -1226,9 +1226,9 @@ ul.actions {
     padding: 0 1.25em; }
     #nav a:hover {
       color: #fff !important;
-      background: #2E5D6F; }
+      background: #383838; }
     #nav a.active {
-      background: #2E5D6F; }
+      background: #383838; }
       #nav a.active:before {
         content: '';
         display: block;
